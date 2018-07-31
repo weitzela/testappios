@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var nameLabel: UILabel!
     @IBAction func nameField(_ nameTextField: UITextField) {
-        nameLabel.text = "Hello blah blah, " + (nameTextField.text)!
+        nameLabel.text = "Hello, " + (nameTextField.text)!
     }
     
     @IBOutlet var Label2: UILabel!
